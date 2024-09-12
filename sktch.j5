@@ -1,0 +1,18 @@
+function setup() {
+  
+  createCanvas(400, 400);
+  background("purple")
+             
+}
+
+function draw() {
+  
+  stroke("white");
+  fill("pink")
+  rect(mouseX,mouseY,40,45)
+  
+  
+  if (mouseIsPressed) {
+    rect(mouseX, mouseY, 10, 25);
+  }
+}
